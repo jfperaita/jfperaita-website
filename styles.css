@@ -6,7 +6,7 @@ body {
 
 header {
     background: #333;
-    color: #fff;
+    color: #fff; /* Ensures that the text color in the header is white */
     padding: 1em 0;
     text-align: center;
 }
@@ -19,6 +19,15 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff; /* Ensures that the text color of the menu items is white */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Optional: Adds an underline on hover for better user experience */
 }
 
 main {
@@ -47,3 +56,4 @@ form label, form input, form textarea, form button {
 form button {
     width: 100px;
 }
+
